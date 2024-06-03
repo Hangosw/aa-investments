@@ -1,0 +1,293 @@
+
+
+* {
+    /* border: solid seagreen 1px; */
+    font-family: 'Be Vietnam Pro';
+    margin: 0 0;
+}
+
+.navigation {
+    height: 90px;
+    line-height: 90px;
+}
+
+
+.inner-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+}
+
+.menu-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-navigation a {
+    color: #28293D;
+    font-size: 16px;
+}
+
+.menu-navigation a:hover {
+    text-decoration: none;
+    
+}
+
+.menu-navigation div {
+    display: flex;
+    align-items: center;
+}
+
+.us-icon {
+    width: 21px;
+}
+
+.us-icon img {
+    width: 100%;
+}
+
+.find-and-languages-settings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-and-languages-settings div {
+    display: flex;
+    align-items: center;
+}
+
+.hide-bar-menu {
+    display: none;
+}
+
+
+/* content */
+.main-banner {
+    position: relative;
+}
+.main-banner img {
+    width: 100%;
+}
+
+.main-banner-content {
+    position: absolute;
+    width: 812px;
+    height: 208px;
+    background-color: #1B2754;
+    color: #fff;
+    left: 0%;
+    bottom: 0%;
+}
+
+.main-banner-content h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.main-banner-content p {
+    font-size: 16px;
+    margin-left: 120px;
+}
+
+.main-banner-content p i {
+    padding-right: 27px;
+}
+
+.main-banner-content p:nth-child(3) {
+    margin-top: 40px;
+}
+
+/* banner 1 */
+
+.banner-1-dt {
+    padding: 96px 120px;
+}
+
+.banner-1-dt.row {
+    margin: 0 0;
+}
+
+.content-banner-1-dt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-banner-1-dt h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.content-banner-1-dt p{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 37px;
+}
+
+.content-banner-1-dt p b {
+    font-weight: bold;
+}
+
+.img-content-banner-1-dt {
+    width: 544px;
+}
+
+.img-content-banner-1-dt img {
+    width: 100%;
+}
+
+/* banner 2 */
+
+.banner-2-dt {
+    padding: 0 120px;
+    background-color: #D9D9D9;
+}
+
+.banner-2-dt.row {
+    margin: 0 0;
+}
+
+.img-content-banner-2-dt {
+    margin: 81px 0;
+}
+
+.img-content-banner-2-dt {
+    width: 544px;
+}
+
+.img-content-banner-2-dt img {
+    width: 100%;
+}
+
+/* news */
+.news {
+    margin-top: 66px;
+    margin-bottom: 90px;
+}
+
+.inner-news {
+    padding: 0px 120px;
+}
+
+.inner-news.row {
+    margin: 0 0;
+}
+
+.article img {
+    width: 100%;
+}
+
+.article h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1B2754;
+    margin-top: 20px;
+}
+
+.article p {
+    font-size: 16px;
+    color: #1B2754;
+    opacity: 0.8;
+    margin-top: 15px;
+}
+
+.btn-news {
+    width: 134px;
+    height: 50px;
+    border: #000 1px solid;
+    color: #1B2754;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    cursor: pointer;
+}
+
+.news > h1 {
+    font-size: 24px;
+    color: #3568D4;
+    text-align: left;
+    margin-left: 120px;
+}
+
+
+/* follow */
+
+.follow {
+    background-color: #28293D;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow span {
+    color: #fff;
+    padding-right: 25px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Footer */
+
+.footer {
+    background: #1C1C28;
+}
+
+.footer-prio {
+    margin: 0 15px;
+}
+
+.footer h1 {
+    margin-left: 120px;
+    color: #fff;
+    font-size: 16px;
+    padding: 60px 0px;
+}
+
+.inner-section-footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 120px;
+    border-bottom: solid 1px #fff;
+    position: relative;
+}
+
+.menu-footer {
+    border-top: 1px solid #fff;
+}
+
+.menu-footer h2 {
+    color: #fff;
+    font-size: 16px;
+    margin: 24px auto;
+}
+
+.list-of-h3 h3{
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+
+/* copy-right */
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    background: #1C1C28;
+}
+
+.copyright span {
+    margin: 32px auto;
+}
+
+

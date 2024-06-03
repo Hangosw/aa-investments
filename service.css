@@ -1,0 +1,415 @@
+
+
+* {
+    /* border: solid seagreen 1px; */
+    font-family: 'Be Vietnam Pro';
+    margin: 0 0;
+}
+
+.navigation {
+    height: 90px;
+    line-height: 90px;
+}
+
+
+.inner-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+}
+
+.menu-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-navigation a {
+    color: #28293D;
+    font-size: 16px;
+}
+
+.menu-navigation a:hover {
+    text-decoration: none;
+    
+}
+
+.menu-navigation div {
+    display: flex;
+    align-items: center;
+}
+
+.us-icon {
+    width: 21px;
+}
+
+.us-icon img {
+    width: 100%;
+}
+
+.find-and-languages-settings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-and-languages-settings div {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+/* content */
+.main-banner {
+    position: relative;
+}
+.main-banner img {
+    width: 100%;
+}
+
+.main-banner-content {
+    position: absolute;
+    width: 812px;
+    height: 208px;
+    background-color: #1B2754;
+    color: #fff;
+    left: 0%;
+    bottom: 0%;
+}
+
+.main-banner-content h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.main-banner-content p {
+    font-size: 16px;
+    margin-left: 120px;
+}
+
+/* Nổi bật */
+
+.top-picks {
+    padding: 0 120px;
+    background-color: #F2F2F5;
+}
+
+.top-picks-container {
+    padding-bottom: 100px;
+}
+
+
+.top-picks h1 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    color: #3568D4;
+    padding: 102px 0 43px;
+}
+
+.section-top-pick h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1B2754;
+    margin-top: 20px;
+}
+
+.section-top-pick p {
+    margin-top: 16px;
+    font-size: 16px;
+    color: #1b2754b5;
+}
+
+.section-top-pick img {
+    width: 100%;
+}
+
+/* Giới thiệu */
+
+.banner-2 {
+    height: 647px;
+    position: relative;
+}
+
+.banner-2 img {
+    float: right;
+    height: 100%;
+}
+
+.content-banner-2 {
+    width: 737px;
+    height: 647px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+}
+
+.content-banner-2-list {
+    margin-left: 120px;
+    width: 430px;
+}
+
+.content-banner-2-list li {
+    margin-left: -15px;
+}
+
+.content-banner-2::before {
+    display: block;
+    content: "";
+    width: 258px;
+    height: 100%;
+    background-color: #fff;
+    float: right;
+    margin-right: -257px;
+    clip-path: polygon(100% 0%, 0% 100%, 0 0);
+}
+
+.content-banner-2 h1 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #3E7BFA;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.content-banner-2 p {
+    margin-left: 120px;
+    margin-top: 40px;
+    color: #1B2754;
+    font-weight: normal;
+    line-height: 26px;
+}
+
+/* Đăng kí nhận tin */
+
+.receive-letter {
+    height: 192px;
+    background-color: #3568D4;
+}
+
+.receive-letter a {
+    display: flex;
+    margin-left: 222px;
+    padding-top: 62px;
+}
+
+.receive-letter a:hover {
+    text-decoration: none;
+}
+
+.receive-letter a i{
+    color: #fff;
+    font-size: 45px;
+
+}
+
+.content-receive-letter {
+    color: #fff;
+    margin-left: 33px;
+    line-height: 192px;
+}
+
+.content-receive-letter h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.content-receive-letter h1 {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+/* get in touch */
+
+.get-in-touch {
+    padding-left: 120px;
+    background-color: #1B2754;
+    height: 68px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-us-img {
+    width: 387px;
+    height: 590px;
+    overflow: hidden;
+}
+
+.contact-us-img img {
+    width: 100%;
+}
+
+/* mail */
+.form-mail {
+    margin-top: 137px;
+    margin-bottom: 100px;
+}
+
+.inner-form-mail {
+    padding-left: 120px;
+}
+
+.contact-us-row {
+    padding: 0 120px;
+}
+
+.contact-us-row.row {
+    margin:  0 0;
+}
+
+/* form */
+.form-group b {
+    color: red;
+}
+
+.form-group {
+    font-size: 16px;
+}
+
+.formbody {
+    margin-top: 15px;
+    width: 100%;
+}
+
+input[class="formbody"] {
+    padding: 10px 20px;
+    font-weight: 500;
+    border: #000 solid 1px;
+}
+
+textarea[class="formbody"] {
+    padding: 10px 20px;
+    font-weight: 500;
+    border: #000 solid 1px;
+}
+
+textarea[class="formbody"]::placeholder {
+    font-weight: 700;
+}
+.btn {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.btn-form-delete {
+    width: 80px;
+    height: 40px;
+    background: transparent;
+    border: #1B2754 solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-form-send {
+    margin-left: 22px;
+    width: 80px;
+    height: 40px;
+    background: #1B2754;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-form span {
+    line-height: 60px;
+}
+
+.passage-note {
+    font-weight: 200;
+    font-size: 12px;
+    font-style: italic;
+    color: #000;
+}
+
+.compulsory h3{
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 18px;
+}
+
+/* follow */
+
+.follow {
+    background-color: #28293D;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow span {
+    color: #fff;
+    padding-right: 25px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Footer */
+
+.footer {
+    background: #1C1C28;
+}
+
+.footer-prio {
+    margin: 0 15px;
+}
+
+.footer h1 {
+    margin-left: 120px;
+    color: #fff;
+    font-size: 16px;
+    padding: 60px 0px;
+}
+
+.inner-section-footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 120px;
+    border-bottom: solid 1px #fff;
+    position: relative;
+}
+
+.menu-footer {
+    border-top: 1px solid #fff;
+}
+
+.menu-footer h2 {
+    color: #fff;
+    font-size: 16px;
+    margin: 24px auto;
+    text-align: center;
+}
+
+.list-of-h3 h3{
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+
+/* copy-right */
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    background: #1C1C28;
+}
+
+.copyright span {
+    margin: 32px auto;
+}
+

@@ -1,0 +1,439 @@
+
+
+    * {
+        /* border: solid seagreen 1px; */
+        font-family: 'Be Vietnam Pro';
+        margin: 0 0;
+    }
+
+    .navigation {
+        height: 90px;
+        line-height: 90px;
+    }
+
+
+    .inner-navigation {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 120px;
+    }
+
+    .menu-navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-navigation a {
+        color: #28293D;
+        font-size: 16px;
+    }
+
+    .menu-navigation a:hover {
+        text-decoration: none;
+        
+    }
+
+    .menu-navigation div {
+        display: flex;
+        align-items: center;
+    }
+
+    .us-icon {
+        width: 21px;
+    }
+
+    .us-icon img {
+        width: 100%;
+    }
+
+    .find-and-languages-settings {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .find-and-languages-settings div {
+        display: flex;
+        align-items: center;
+    }
+
+    .hide-bar-menu i{
+        display: none;
+    }
+
+
+
+    /* content */
+
+    .banner-1 img {
+        width: 100%;
+    }
+
+    .banner-2 {
+        position: relative;
+    }
+    
+    .img-banner-2 {
+        z-index: -1;
+    }
+
+    .img-banner-2 img {
+        width: 100%;
+    }
+
+    .content-banner-2 {
+        width: 737px;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+    }
+
+    .content-banner-2::before {
+        display: block;
+        content: "";
+        width: 254px;
+        height: 100%;
+        background-color: #fff;
+        float: right;
+        margin-right: -254px;
+        clip-path: polygon(100% 0%, 0% 100%, 0 0);
+        z-index: 2;
+    }
+
+    .content-banner-2 h1 {
+        font-size: 34px;
+        font-weight: 600;
+        color: #3E7BFA;
+        margin-left: 120px;
+        margin-top: 100px;
+    }
+
+    .content-banner-2 p {
+        margin-left: 120px;
+        margin-top: 40px;
+        color: #1B2754;
+        font-weight: normal;
+        line-height: 26px;
+    }
+
+    /* aa help */
+    .aa-help {
+        background: #28293D;
+        height: 800px;
+    }
+
+    .aa-help h1 {
+        margin-left: 120px;
+        color: #E4E4EB;
+        font-size: 34px;
+        font-weight: 600;
+        padding-top: 60px;
+    }
+
+    .tab-container {
+        margin-top: 47px;
+    }
+
+    .tabs {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 0 120px;
+        position: relative;
+    }
+
+    .tab-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid #fff;
+    }
+
+    .tab-item span {
+        font-size: 20px;
+        font-weight: 500;
+        color: #FFFFFF;
+        margin: 32px 0;
+    }
+
+    .tab-item img {
+        width: 132px;
+        height: 132px;
+    }
+
+    .tabs .line-tabs {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 1000px;
+        height: 6px;
+        border-radius: 15px;
+        background-color: #6698FA;
+        transition: all 0.2s ease;
+    }
+
+    .tab-pane h2 {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 48px;
+        padding: 0 120px;
+        color: #fff;
+        margin-top: 32px;
+    }
+
+    .tab-pane p {
+        padding: 0 120px;
+        color: #fff;
+        line-height: 40px;
+        font-size: 16px;
+        margin-top: 27px;
+    }
+
+    .tabs .line {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 11px;
+        background-color: #6698FA;
+        transition: all 0.2s ease;
+    }
+
+    .btn-aa-help {
+        width: 132px;
+        height: 50px;
+        background-color: transparent;
+        border: #fff 1px solid;
+        font-size: 16px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: 120px;
+        cursor: pointer;
+        margin-top: 34px;
+    }
+
+
+    /* top pick */
+
+    .top-picks {
+        margin: 0 120px;
+    }
+
+    .section-top-pick img {
+        width: 100%;
+    }
+
+
+    .top-picks h1 {
+        text-align: center;
+        font-size: 34px;
+        font-weight: 600;
+        color: #3568D4;
+        margin: 102px 0 43px;
+    }
+
+    .section-top-pick h3 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1B2754;
+        margin-top: 20px;
+    }
+
+    .section-top-pick p {
+        margin-top: 16px;
+        font-size: 16px;
+        color: #1b2754b5;
+    }
+
+    /* banner */
+
+    .banner-aa-academy {
+        margin-top: 100px;
+        background-image: url('img/home-banner.jpg');
+        height: 193px;
+        display: flex;
+    }
+
+    .banner-aa-academy img {
+        width: 100%;
+    }
+
+    .btn-aa-academy {
+        width: 135px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #000;
+        margin-top: 71px;
+        margin-left: 68px;
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+    .content-banner-aa-academy {
+        margin-left: 160px;
+        margin-top: 57px;
+    }
+
+    .content-banner-aa-academy h1 {
+        font-size: 42px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .content-banner-aa-academy h2 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    /* Publications */
+
+    .publications-container.row {
+        margin: 0 0;
+    }
+
+    .publications {
+        margin: 0 120px;
+    }
+
+
+    .event-media-container.row {
+        margin:  0 0;
+    }
+
+    .public-section {
+        margin-top: 100px;
+    }
+
+    .public-section img {
+        width: 100%;
+    }
+
+    .public-section h1 {
+        font-size: 34px;
+        color: #1B2754;
+        margin-top: 32px;
+    }
+
+    .public-section p {
+        font-size: 16px;
+        font-weight: 500;
+        color: #1B2754;
+        margin-top: 26px;
+        height: 30px;
+    }
+
+    .public-section div {
+        font-size: 16px;
+        width: 145px;
+        height: 50px;
+        background: #3568D4;
+        color: #fff;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 96px;
+        margin-top: 48px;
+    }
+
+
+    /* events */
+
+    .events-media {
+        background: #E6E6E9;;
+        padding: 0 120px;
+    }
+
+    .public-section1 {
+        line-height: 32px;
+    }
+
+    /* follow */
+
+    .follow {
+        background-color: #28293D;
+        height: 96px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .follow span {
+        color: #fff;
+        padding-right: 25px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .follow span img {
+        width: 100%;
+        height: auto;
+    }
+    
+
+
+    /* Footer */
+
+    .footer {
+        background: #1C1C28;
+    }
+
+    .footer-prio {
+        margin: 0 15px;
+    }
+
+    .footer h1 {
+        margin-left: 120px;
+        color: #fff;
+        font-size: 16px;
+        padding: 60px 0px;
+    }
+
+    .inner-section-footer {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin: 0 120px;
+        border-bottom: solid 1px #fff;
+        position: relative;
+    }
+
+    .menu-footer {
+        border-top: 1px solid #fff;
+    }
+
+    .menu-footer h2 {
+        color: #fff;
+        font-size: 16px;
+        margin: 24px auto;
+    }
+
+    .list-of-h3 h3{
+        font-size: 12px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+
+    /* copy-right */
+
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 500;
+        background: #1C1C28;
+    }
+
+    .copyright span {
+        margin: 32px auto;
+    }
+

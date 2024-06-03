@@ -1,0 +1,408 @@
+
+
+* {
+    /* border: solid seagreen 1px; */
+    font-family: 'Be Vietnam Pro';
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.navigation {
+    height: 90px;
+    line-height: 90px;
+}
+
+
+.inner-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+}
+
+.menu-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-navigation a {
+    color: #28293D;
+    font-size: 16px;
+}
+
+.menu-navigation a:hover {
+    text-decoration: none;
+    
+}
+
+.menu-navigation div {
+    display: flex;
+    align-items: center;
+}
+
+.us-icon {
+    width: 21px;
+}
+
+.us-icon img {
+    width: 100%;
+}
+
+.find-and-languages-settings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-and-languages-settings div {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Content */
+
+.main-banner-contact {
+    background-color: #1B2754;
+    height: 175px;
+}
+
+.inner-banner-contact {
+    padding: 50px 0;
+    color: #fff;
+    margin-left: 120px;
+}
+
+.inner-banner-contact h1 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+
+
+/* news */
+.news {
+    margin-top: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-news {
+    padding: 0px 120px;
+}
+
+.inner-news.row {
+    margin: 0 0;
+}
+
+.article img {
+    width: 100%;
+}
+
+.article h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1B2754;
+    margin-top: 20px;
+}
+
+.article p {
+    font-size: 16px;
+    color: #1B2754;
+    opacity: 0.8;
+    margin-top: 15px;
+}
+
+.btn-news {
+    width: 134px;
+    height: 50px;
+    border: #000 1px solid;
+    color: #1B2754;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    cursor: pointer;
+}
+
+/* Tax and law */
+.tax-and-law {
+    padding: 90px 120px;
+}
+
+.h1-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ok {
+    width: 305px;
+    height: 50px;
+}
+
+input[placeholder="Search"]::placeholder {
+    padding-left: 25px;
+}
+
+.filter {
+    background: #E4E4EB;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.filter h1{
+    margin-left: 34px;
+    font-size: 14px;
+    color: #1B2754;
+}
+
+.filter h1 b {
+    margin-left: 32px;
+}
+
+.result h1 {
+    padding: 32px 0;
+    font-size: 14px;
+}
+
+.blueline {
+    width: 10%;
+    background-color: #3568D4;
+    height: 2px;
+    margin-bottom: 16px;
+}
+
+.section-tax-law h3{
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    padding-bottom: 16px;
+    line-height: 32px;
+}
+
+.section-tax-law h1 {
+    font-size: 20px;
+    color: #1B2754;
+}
+
+.btn-law-tax {
+    width: 150px;
+    height: 50px;
+    border: #1B2754 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.btn-tnl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* get in touch */
+
+.get-in-touch {
+    padding-left: 120px;
+    background-color: #1B2754;
+    height: 68px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-us-img {
+    width: 387px;
+    height: 590px;
+    overflow: hidden;
+}
+
+.contact-us-img img {
+    width: 100%;
+}
+
+/* mail */
+.form-mail {
+    margin-top: 137px;
+    margin-bottom: 100px;
+}
+
+.inner-form-mail {
+    padding-left: 120px;
+}
+
+.contact-us-row {
+    padding: 0 120px;
+}
+
+.contact-us-row.row {
+    margin: 0 0;
+}
+
+/* mail */
+.form-mail {
+    margin-top: 137px;
+    margin-bottom: 100px;
+}
+
+.inner-form-mail {
+    padding-left: 120px;
+}
+
+.contact-us-row {
+    padding: 0 120px;
+}
+
+/* form */
+.form-group b {
+    color: red;
+}
+
+.form-group {
+    font-size: 16px;
+}
+
+.formbody {
+    margin-top: 15px;
+    width: 100%;
+}
+
+input[class="formbody"] {
+    padding: 10px 20px;
+    font-weight: 500;
+    border: #000 solid 1px;
+}
+
+textarea[class="formbody"] {
+    padding: 10px 20px;
+    font-weight: 500;
+    border: #000 solid 1px;
+}
+
+textarea[class="formbody"]::placeholder {
+    font-weight: 700;
+}
+.btn {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.btn-form-delete {
+    width: 80px;
+    height: 40px;
+    background: transparent;
+    border: #1B2754 solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-form-send {
+    margin-left: 22px;
+    width: 80px;
+    height: 40px;
+    background: #1B2754;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-form span {
+    line-height: 60px;
+}
+
+.passage-note {
+    font-weight: 200;
+    font-size: 12px;
+    font-style: italic;
+    color: #000;
+}
+
+.compulsory h3{
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 18px;
+}
+
+/* follow */
+
+.follow {
+    background-color: #28293D;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow span {
+    color: #fff;
+    padding-right: 25px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Footer */
+
+.footer {
+    background: #1C1C28;
+}
+
+.footer-prio {
+    margin: 0 15px;
+}
+
+.footer h1 {
+    margin-left: 120px;
+    color: #fff;
+    font-size: 16px;
+    padding: 60px 0px;
+}
+
+.inner-section-footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 120px;
+    border-bottom: solid 1px #fff;
+    position: relative;
+}
+
+.menu-footer {
+    border-top: 1px solid #fff;
+}
+
+.menu-footer h2 {
+    color: #fff;
+    font-size: 16px;
+    margin: 24px auto;
+}
+
+.list-of-h3 h3{
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+
+/* copy-right */
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    background: #1C1C28;
+}
+
+.copyright span {
+    margin: 32px auto;
+}
+
+
